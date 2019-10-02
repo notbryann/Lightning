@@ -6,6 +6,13 @@ void setup()
 {
   size(500,500);
   background(0);
+  noStroke();
+  ellipse(150,50,100,100);
+  ellipse(210,40,100,100);
+  ellipse(210,60,100,100);
+  ellipse(270,50,100,100);
+  ellipse(330,40,100,100);
+  ellipse(330,60,100,100);
   strokeWeight(3);
 }
 void draw()
