@@ -10,6 +10,7 @@ void setup()
   ellipse(250,0,600,100);
 
   strokeWeight(3);
+  frameRate(15);
 }
 void draw()
 {
@@ -23,12 +24,18 @@ while(endY<500){
 	startX=endX;
 	startY=endY;
 }
-}
-void mousePressed()
-{
 	startX = (int)(Math.random()*500)+1;
 	startY = 0;
 	endX = 250;
 	endY = 0;
+}
+void mousePressed()
+{
+ size(500,500);
+  background(50);
+  noStroke();
+  ellipse(250,0,600,100);
+
+  strokeWeight(3);
 }
 
